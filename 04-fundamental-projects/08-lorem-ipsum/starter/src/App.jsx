@@ -1,4 +1,7 @@
+import { useState } from 'react';
+
 const App = () => {
-  return <h2>Lorem Ipsum Starter</h2>;
+  const [count, setCount] = useState(1);
+  return <h2>Lorem Ipsum</h2>;
 };
 export default App;

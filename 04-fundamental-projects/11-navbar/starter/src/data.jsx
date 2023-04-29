@@ -8,29 +8,29 @@ export const links = [
   {
     id: 2,
     url: '/about',
-    text: 'about',
+    text: 'acerca de',
   },
   {
     id: 3,
     url: '/projects',
-    text: 'projects',
+    text: 'proyectos',
   },
   {
     id: 4,
     url: '/contact',
-    text: 'contact',
+    text: 'contacto',
   },
   {
     id: 5,
     url: '/profile',
-    text: 'profile',
+    text: 'perfil',
   },
 ];
 
 export const social = [
   {
     id: 1,
-    url: 'https://www.twitter.com',
+    url: 'https://es-la.facebook.com/',
     icon: <FaFacebook />,
   },
   {
@@ -40,12 +40,12 @@ export const social = [
   },
   {
     id: 3,
-    url: 'https://www.twitter.com',
+    url: 'https://www.linkedin.com/feed/',
     icon: <FaLinkedin />,
   },
   {
     id: 4,
-    url: 'https://www.twitter.com',
+    url: 'https://www.behance.net/',
     icon: <FaBehance />,
   },
 ];

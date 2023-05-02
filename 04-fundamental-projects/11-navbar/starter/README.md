@@ -59,16 +59,16 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className='nav-center'>
-        <div className='nav-header'>
-          <img src={logo} className='logo' alt='logo' />
-          <button className='nav-toggle' onClick={toggleLinks}>
+      <div className="nav-center">
+        <div className="nav-header">
+          <img src={logo} className="logo" alt="logo" />
+          <button className="nav-toggle" onClick={toggleLinks}>
             <FaBars />
           </button>
         </div>
         {showLinks && (
-          <div className='links-container'>
-            <ul className='links'>
+          <div className="links-container">
+            <ul className="links">
               {links.map((link) => {
                 const { id, url, text } = link;
                 return (
@@ -147,7 +147,7 @@ nav {
 <div
   className={showLinks ? 'links-container show-container' : 'links-container'}
 >
-  <ul className='links'>....links</ul>
+  <ul className="links">....links</ul>
 </div>
 ```
 
@@ -181,20 +181,19 @@ const Navbar = () => {
   };
   return (
     <nav>
-      <div className='nav-center'>
-        <div className='nav-header'>
-          <img src={logo} className='logo' alt='logo' />
-          <button className='nav-toggle' onClick={toggleLinks}>
+      <div className="nav-center">
+        <div className="nav-header">
+          <img src={logo} className="logo" alt="logo" />
+          <button className="nav-toggle" onClick={toggleLinks}>
             <FaBars />
           </button>
         </div>
-
         <div
-          className='links-container'
+          className="links-container"
           ref={linksContainerRef}
           style={linkStyles}
         >
-          <ul className='links' ref={linksRef}>
+          <ul className="links" ref={linksRef}>
             {links.map((link) => {
               const { id, url, text } = link;
               return (

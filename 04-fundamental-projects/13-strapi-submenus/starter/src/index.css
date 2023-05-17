@@ -258,7 +258,7 @@ PROJECT CSS
 =============== 
 */
 body {
-  background: var(--primary-500);
+  background: var(--green-dark);
 }
 /* 
 ============= 
@@ -332,6 +332,7 @@ Hero
     max-width: 35em;
     margin: 0 auto;
   }
+  /* oculta el boton arriba derecho debajo de 992 px de pantalla */
   .toggle-btn {
     display: none;
   }

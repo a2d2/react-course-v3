@@ -14,17 +14,17 @@ import { nanoid } from 'nanoid';
 const sublinks = [
   {
     pageId: nanoid(),
-    page: 'product',
+    page: 'producto',
     links: [
       {
         id: nanoid(),
-        label: 'community',
+        label: 'communidad',
         icon: <Fa500Px />,
         url: '/product/community',
       },
       {
         id: nanoid(),
-        label: 'content',
+        label: 'contenido',
         icon: <FaAccusoft />,
         url: '/product/content',
       },
@@ -38,47 +38,47 @@ const sublinks = [
   },
   {
     pageId: nanoid(),
-    page: 'solutions',
+    page: 'distribuidores',
     links: [
       {
         id: nanoid(),
-        label: 'developers',
+        label: 'bogota',
         icon: <FaAvianex />,
         url: '/solutions/developers',
       },
       {
         id: nanoid(),
-        label: 'content managers',
+        label: 'medellin',
         icon: <FaBitcoin />,
         url: '/solutions/content-managers',
       },
       {
         id: nanoid(),
-        label: 'business teams',
+        label: 'cali',
         icon: <FaBtc />,
         url: '/solutions/business teams',
       },
       {
         id: nanoid(),
-        label: 'ecommerce',
+        label: 'comercio electronico',
         icon: <FaCodiepie />,
         url: '/solutions/ecommerce',
       },
     ],
   },
   {
-    page: 'resources',
+    page: 'recursos',
     pageId: nanoid(),
     links: [
       {
         id: nanoid(),
-        label: 'starters',
+        label: 'principiantes',
         icon: <FaDocker />,
         url: '/resources/starters',
       },
       {
         id: nanoid(),
-        label: 'showcase',
+        label: 'vitrina',
         icon: <FaGithubSquare />,
         url: '/resources/showcase',
       },
